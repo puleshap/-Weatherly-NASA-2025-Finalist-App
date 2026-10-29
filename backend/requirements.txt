@@ -1,0 +1,11 @@
+fastapi
+fastAPI
+pydantic
+requests
+pandas
+numpy
+prophet
+scikit-learn
+joblib
+uvicorn
+plotly
