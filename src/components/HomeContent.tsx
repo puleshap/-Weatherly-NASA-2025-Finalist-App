@@ -123,7 +123,7 @@ export default function App() {
 
   useEffect(() => {
     const script = document.createElement("script");
-    script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyAdI9wBpbZMObHzJWbFP4JKDx0Z5RIsNJo&libraries=places&language=en`;
+    script.src = `google-maps-url-key`;
     script.async = true;
     script.defer = true;
     script.onload = initMap;
